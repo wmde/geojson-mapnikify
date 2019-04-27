@@ -1,11 +1,14 @@
 {
-  "name": "@mapbox/geojson-mapnikify",
+  "name": "@kartotherian/geojson-mapnikify",
   "version": "2.1.0",
   "description": "transform geojson with simplestyle-spec into mapnik xml",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js",
     "coverage": "istanbul cover tape test/*.js && coveralls < ./coverage/lcov.info"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bin": {
     "geojson-mapnikify": "./bin/geojson-mapnikify"
@@ -31,17 +34,17 @@
     "queue-async": "~1.0.7",
     "agentkeepalive": "~2.0.2",
     "request": "~2.78.0",
-    "@mapbox/makizushi": "^3.0.1",
+    "@kartotherian/makizushi": "^3.0.1",
     "minimist": "~1.2.0",
     "sigmund": "~1.0.0",
     "xtend": "~4.0.0",
-    "@mapbox/blend": "^2.0.1"
+    "@kartotherian/blend": "^2.0.1"
   },
   "devDependencies": {
     "coveralls": "~2.11.1",
     "glob": "~4.0.5",
     "istanbul": "~0.3.0",
-    "mapnik": "3.x || 4.x",
+    "@kartotherian/mapnik": "3.7.3",
     "nock": "<=9.2.3",
     "tape": "~2.14.0"
   }

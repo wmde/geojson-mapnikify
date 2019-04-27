@@ -10,11 +10,11 @@ styles.
 
 As a dependency:
 
-    npm install --save @mapbox/geojson-mapnikify
+    npm install --save @kartotherian/geojson-mapnikify
 
 As a binary:
 
-    npm install -g @mapbox/geojson-mapnikify
+    npm install -g @kartotherian/geojson-mapnikify
 
 ## api
 
