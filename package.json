@@ -1,6 +1,6 @@
 {
   "name": "@kartotherian/geojson-mapnikify",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "transform geojson with simplestyle-spec into mapnik xml",
   "main": "index.js",
   "scripts": {
