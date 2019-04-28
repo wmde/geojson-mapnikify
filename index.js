@@ -1,5 +1,5 @@
 var normalize = require('@mapbox/geojson-normalize'),
-    makizushi = require('@mapbox/makizushi'),
+    makizushi = require('@kartotherian/makizushi'),
     queue = require('queue-async'),
     path = require('path'),
     fs = require('fs'),
